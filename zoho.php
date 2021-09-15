@@ -7,9 +7,11 @@ $sevDeskContactsURL="https://my.sevdesk.de/api/v1/Contact";
 
 $zohoAuth=""; // find a generate class 
 
-$response =  new stdclass();
+$response = new stdclass();
+
 
 // Function to call urls
+
 
 $result = array();
 function callURL($url,$auth){
